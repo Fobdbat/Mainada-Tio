@@ -1,4 +1,4 @@
-﻿# Tió de Nadal! ·  El joc de l'Ada de Som Mainada
+﻿# Tió de Nadal! · El joc de l'Ada de Som Mainada
 
 Joc musical de navegador per a infants de 1r a 3r de primària, al ritme de la cançó **«Tió de Nadal»** de l'Ada de Som Mainada.
 
