@@ -1673,8 +1673,14 @@ function gcEvent(name){
   if(TEST) return;
   try { if(window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: 'tio-de-nadal/' + name, title: name, event: true }); } catch(e){}
 }
+// partides jugades des que s'ha obert la pàgina (només en memòria: no es guarda res al dispositiu).
+// Cada partida envia el seu número (partida-1, partida-2…): partida-1 = gent que ha jugat,
+// la suma de tots els partida-N = partides totals.
+let partidesJugades = 0;
 function startGame(){
   gcEvent('partida-iniciada');
+  partidesJugades++;
+  gcEvent('partida-' + partidesJugades);
   resetGame();
   titleOv.classList.add('hidden'); endOv.classList.add('hidden'); pauseOv.classList.add('hidden');
   G.state = 'playing'; pauseBtn.classList.add('show');

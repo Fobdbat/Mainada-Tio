@@ -1,4 +1,4 @@
-﻿# Tió de Nadal! · El joc de l'Ada de Som Mainada
+# Tió de Nadal! · El joc de l'Ada de Som Mainada
 
 Joc musical de navegador per a infants de 1r a 3r de primària, al ritme de la cançó **«Tió de Nadal»** de l'Ada de Som Mainada.
 
@@ -25,7 +25,9 @@ Joc musical de navegador per a infants de 1r a 3r de primària, al ritme de la c
 Opció: `BARRETINA_TOTHOM = true` posa barretina a tota la banda (ara només la porta l'Ada).
 
 ## Estadístiques
-GoatCounter (tiodenadal.goatcounter.com, site propi separat dels altres jocs) compta les visites i aquests esdeveniments: `partida-iniciada`, `partida-acabada` i `vers-1` … `vers-4` (quants infants arriben a cada vers).
+GoatCounter (tiodenadal.goatcounter.com, site propi separat dels altres jocs) compta les visites i aquests esdeveniments:
+- `partida-iniciada`, `partida-acabada` i `vers-1` … `vers-4` (quants infants arriben a cada vers).
+- `partida-1`, `partida-2`, `partida-3`… : cada partida envia el seu número. **`partida-1` = gent que ha jugat**; **la suma de tots els `partida-N` = partides totals**. El comptador és només en memòria (no es guarda res al dispositiu): si es recarrega la pàgina torna a començar per 1.
 
 ## Mode de prova
 `index.html?test&t=20` comença al segon 20, sense so. Afegeix `&auto` perquè jugui sol, o `&barretines` per veure tota la banda amb barretina.
