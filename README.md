@@ -27,6 +27,7 @@ Opció: `BARRETINA_TOTHOM = true` posa barretina a tota la banda (ara només la 
 ## Estadístiques
 GoatCounter (tiodenadal.goatcounter.com, site propi separat dels altres jocs) compta les visites i aquests esdeveniments:
 - `partida-iniciada`, `partida-acabada` i `vers-1` … `vers-4` (quants infants arriben a cada vers).
+- `clic-sommainada`: clics a l'enllaç a sommainada.cat (pantalles d'inici i final; s'obre en una pestanya nova).
 - `partida-1`, `partida-2`, `partida-3`… : cada partida envia el seu número. **`partida-1` = gent que ha jugat**; **la suma de tots els `partida-N` = partides totals**. El comptador és només en memòria (no es guarda res al dispositiu): si es recarrega la pàgina torna a començar per 1.
 
 ## Mode de prova
